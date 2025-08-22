@@ -20,6 +20,7 @@ provider "aws" {
 
 # This creates the "hat" (IAM Role) that App Runner can wear.
 # It has a trust policy that says "Only the App Runner service can wear me".
+#sdf
 resource "aws_iam_role" "app_runner_ecr_role" {
   name = "AppRunnerECRAccessRole-${var.student_identifier}"
 
