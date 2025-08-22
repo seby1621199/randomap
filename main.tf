@@ -9,7 +9,7 @@ terraform {
 
 # This is the placeholder for each person's unique name.
 # We will provide a value for it when we run `terraform apply`.
-#df
+#dfsdfg
 variable "student_identifier" {
   type        = string
   description = "A unique name for each student (e.g., 'nicu', 'tarabostes', 'mercedes', 'treiberi')."
